@@ -12,23 +12,17 @@
 
 ### Create MySQL database
 
-mysql -u root -p
-
-create database realtime_data_processing;
-
-show databases;
-
-exit;
+> mysql -u root -p
+> create database realtime_data_processing;
+> show databases;
+> exit;
 
 ### Run Real-Time Dashboard Application
 
-folder: realtime_charts
-
-python manage.py runserver
-
-Access Real-Time Dashboard Application using below url,
-
-http://127.0.0.1:8000/
+> folder: realtime_charts
+> python manage.py runserver
+> Access Real-Time Dashboard Application using below url
+> http://127.0.0.1:8000/
 
 ### Run Kafka Producer Application(Stream data simulator)
 
